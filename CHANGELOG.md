@@ -8,3 +8,7 @@
 ## 0.2.5 - Minor additions to telemetry
 
 - Added instanceId to telemetry events.
+
+## 0.2.6 - Minor additions to telemetry
+
+- Added target offering to telemetry events.

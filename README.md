@@ -1,16 +1,28 @@
 # Introduction
 
-The Azure Cosmos DB for MongoDB Migration extension helps you assess your MongoDB workload to Azure Cosmos DB. The end-to-end assessment helps you find out the necessary actions you may need to take to seamlessly migrate your workloads to Azure Cosmos DB.
+The Azure DocumentDB Migration extension for Visual Studio Code helps you assess and migrate your MongoDB workloads to Azure DocumentDB seamlessly. It offers two key capabilities:
 
-The report presents findings at the account, database, and collection levels, each marked as Critical, Warning, or Informational based on severity to aid prioritization. These include
+## 1. Comprehensive Assessment
 
-- **Unsupported Features and Syntax**: It flags unsupported MongoDB features, commands, query syntax, and index types, with usage frequency to prioritize fixes.
+Quickly identify the actions needed for a smooth migration. The extension generates a detailed report at the account, database, and collection levels, categorizing findings as Critical, Warning, or Informational to help you prioritize. Key highlights include:
 
-- **Resource-Specific Recommendations**: Each finding includes the affected resource name, actionable recommendations, and relevant technical details for remediation.
+- **Unsupported Features and Syntax**: Detects unsupported MongoDB features, commands, query syntax, and index types, along with usage frequency for prioritization.
 
-- **Environment Overview**: Summarizes key aspects of the source MongoDB environment—such as version, license, instance type, and stats for databases and collections.
+- **Resource-Specific Recommendations**: Provides actionable guidance for each affected resource, including technical details for remediation.
 
-- **Compatibility and Platform Constraints**: Details Cosmos DB-specific quotas, limits, and potential shard key incompatibilities for sharded workloads.
+- **Environment Overview**: Summarizes essential details of your MongoDB environment version, license, instance type, and database/collection statistics.
+
+- **Compatibility and Platform Constraints**: Highlights Azure DocumentDB specific quotas, and limits.
+
+## 2. Online & Offline Migration
+
+Accelerate your modernization journey with zero-cost migration in both online and offline modes. Migration jobs run entirely on Azure-managed resources, maintained by the Azure DocumentDB team, no infrastructure setup required.
+
+- **Secure and Flexible**: Initiate and monitor migrations without staying connected, ideal for large-scale or secure scenarios. Supports private endpoint-enabled targets for enterprise-grade security.
+
+- **Broad Source Support**: Migrate from self-hosted MongoDB, MongoDB Atlas, or other compatible sources all within a unified, intuitive VS Code experience.
+
+Enjoy improved performance, reduced operational overhead, and a streamlined path to Azure DocumentDB without additional migration costs.
 
 ## Telemetry
 
@@ -18,7 +30,7 @@ VS Code collects usage data and sends it to Microsoft to help improve our produc
 
 ## Privacy Statement
 
-To learn more about our Privacy Statement visit [this link](https://go.microsoft.com/fwlink/?LinkID=824704).
+To learn more about our Privacy Statement visit [this link](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 ## License
 
